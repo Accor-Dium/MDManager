@@ -63,5 +63,5 @@ const redTheme = {
 export default function Editor() {
   const editor = useCreateBlockNote({});
 
-  return <BlockNoteView editor={editor} theme={redTheme} />;
+  return <BlockNoteView editor={editor} /*theme={redTheme}*/ />;
 }
